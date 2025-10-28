@@ -22,11 +22,16 @@
 }
 
 .App {
-  text-align: center;
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
+  text-align: left;
   min-height: 100vh;
-  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  flex: 1;
 }
 
 .App-logo {
